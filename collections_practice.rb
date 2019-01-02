@@ -41,16 +41,13 @@ def merge_data(keys, data)
   merged
 end
 
-def find_cool(array)
-  if array[1].values[1] == "cool"
-    [cool[1]]
-  end
-end
 
 def find_cool(cool)
     cool.select {|i| i.any? {|k,v| v == "cool"}} 
 end
 
-
+def organize_schools(schools)
+  
+end
 
   
